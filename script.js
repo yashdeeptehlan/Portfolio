@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const speed = 100;
     function typeWriter() {
         if (i < text.length) {
-            document.getElementById.innerHTML += text.charAt(i);
+            document.getElementById.innerHTML += charAt(i);
             i++;
             setTimeout(typeWriter, speed);
         }
